@@ -2,7 +2,7 @@ import React from "react";
 
 const User = () => {
   return (
-    <div className="rounded-xl overflow-hidden w-[460px] max-[400px]:w-full lg:w-[220px] ">
+    <div className="rounded-xl overflow-hidden w-[460px] max-[428px]:w-full lg:w-[220px] ">
       <div className="bg-[#4855eb] p-4  flex gap-4 lg:block  items-center   ">
         <img
           className="w-[80px] object-cover border-2 border-white rounded-full"

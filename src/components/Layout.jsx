@@ -10,7 +10,7 @@ const Layout = () => {
     //   </div>
     <div className="p-4 flex flex-col lg:flex-row justify-center w-full  items-center gap-2">
       <User />
-      <div className=" max-[400px]:w-full grid grid-cols-2 max-[400px]:grid-cols-1  lg:grid-cols-3 gap-2">
+      <div className=" max-[428px]:w-full grid grid-cols-2 max-[428px]:grid-cols-1  lg:grid-cols-3 gap-2">
         <Card
           title={"work"}
           present_hours={32}

@@ -7,7 +7,7 @@ const Card = ({
   bg_img,
   bg_overley,
 }) => {
-  let cardClass = `w-[220px] max-[400px]:w-full ${bg_img} ${bg_overley} rounded-2xl bg-no-repeat  bg-right-top   duration-300 hover:scale-105 cursor-pointer `;
+  let cardClass = `w-[220px] max-[428px]:w-full ${bg_img} ${bg_overley} rounded-2xl bg-no-repeat  bg-right-top   duration-300 hover:scale-105 cursor-pointer `;
   const [hourCounter, setHourCounter] = useState(
     present_hours >= 10
       ? present_hours - 10
